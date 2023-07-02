@@ -46,6 +46,8 @@ Ich hatte bei meinem Skript direkt eine Idee wie ich dieses Skript mit Funktione
 
 Bei mir ist nicht gut gelaufen:
 
-Ich hatte probleme die Ordner in dem Hauptordner zu kontrolieren.
+Ich hatte probleme die Ordner in dem Hauptordner zu kontrolieren. Ich habe auch etwas spät mit der Dokumentation begonnen.
 
 ## Fazit
+
+Ich konnte eigentlich gut arbeiten und es war nicht so schwierig dieses Skript zu erstellen, ich versuche nächstes mal mit der Dokumentation früher zu beginnen damit ich nicht alles am ende machen muss.
