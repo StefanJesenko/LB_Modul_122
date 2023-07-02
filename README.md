@@ -4,15 +4,15 @@ Erstell von Stefan Jesenko
 
 ## Einleitung
 
-In meinem Projekt habe ich ein Skript erstellt, dieses kann die PowerPoint und Word Dokumente in einem Ordner auf nichtmehr funktionierende Links überprüfen.
+In meinem Projekt habe ich ein Skript erstellt, dieses kann die PowerPoint und Word Dokumente in einem Ordner auf nicht mehr funktionierende Links überprüfen.
 
 ## Was habe ich gelernt?
 
-Ich habe gelernt wie man mit PowerShell einen Link überprüfen kann.
+Ich habe gelernt, wie man mit PowerShell einen Link überprüfen kann.
 
 ## Beschreibung
 
-Mit PowerShell kann man mit dem begriff `HyperLinks` auf Links zugreifen. In meinem Skript öffne ich zuerst ein Dokument dann wird jeder Link in dem Dokument getestet. Das mache ich mit einer `foreach` Schleife, in der wird jeder Link geöffnet und dann wird getestet ob der Link funktioniert mit `Test-Connection`.
+Mit PowerShell kann man mit dem Begriff `HyperLinks` auf Links zugreifen. In meinem Skript öffne ich zuerst ein Dokument dann wird jeder Link in dem Dokument, getestet. Das mache ich mit einer `foreach` Schleife, in der wird jeder Link geöffnet und dann wird getestet ob der Link funktioniert mit `Test-Connection`.
 
 ```PS1
 foreach ($file in $pptFiles) {
@@ -37,17 +37,17 @@ foreach ($file in $pptFiles) {
     }
 ```
 
-Hier sieht man wie ich die `Hyperlinks` in der `foreach` auf funktionalität getestet habe.
+Hier sieht man wie ich die `Hyperlinks` in der `foreach` auf Funktionalität getestet habe.
 
 ## Reflexion und Fazit
 
-Bei mir ist gut gelaufen:
-Ich hatte bei meinem Skript direkt eine Idee wie ich dieses Skript mit Funktionen Umsetzen kann.
+### Bei mir ist gut gelaufen:
+Ich hatte bei meinem Skript direkt eine Idee, wie ich dieses Skript mit Funktionen umsetzen kann.
 
-Bei mir ist nicht gut gelaufen:
+### Bei mir ist nicht gut gelaufen:
 
-Ich hatte probleme die Ordner in dem Hauptordner zu kontrolieren. Ich habe auch etwas spät mit der Dokumentation begonnen.
+Ich hatte Probleme, die Ordner in dem Hauptordner zu kontrollieren. Ich habe auch etwas spät mit der Dokumentation begonnen.
 
 ## Fazit
 
-Ich konnte eigentlich gut arbeiten und es war nicht so schwierig dieses Skript zu erstellen, ich versuche nächstes mal mit der Dokumentation früher zu beginnen damit ich nicht alles am ende machen muss.
+Ich konnte eigentlich gut arbeiten und es war nicht so schwierig dieses Skript zu erstellen, ich versuche nächstes Mal mit der Dokumentation früher zu beginnen, damit ich nicht alles am Ende machen muss.
